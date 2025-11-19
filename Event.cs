@@ -1048,7 +1048,7 @@ namespace StardewValley
       {
         string lower = split[1].ToLower();
         // ISSUE: reference to a compiler-generated method
-        switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(lower))
+        switch (PrivateImplementationDetails.ComputeStringHash(lower))
         {
           case 456875097:
             if (!(lower == "hero"))
@@ -3933,7 +3933,7 @@ label_9:
     private void addSpecificTemporarySprite(string key, GameLocation location, string[] split)
     {
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(key))
+      switch (PrivateImplementationDetails.ComputeStringHash(key))
       {
         case 37764568:
           if (!(key == "JoshMom"))
@@ -8214,7 +8214,7 @@ label_9:
       Game1.globalFade = false;
       this.doingSecretSanta = false;
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(id))
+      switch (PrivateImplementationDetails.ComputeStringHash(id))
       {
         case 5462067:
           if (!(id == "fair"))
@@ -9288,7 +9288,7 @@ label_9:
       else
       {
         // ISSUE: reference to a compiler-generated method
-        switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(questionKey))
+        switch (PrivateImplementationDetails.ComputeStringHash(questionKey))
         {
           case 119764934:
             if (!(questionKey == "shaneLoan"))

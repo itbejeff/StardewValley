@@ -59,7 +59,7 @@ namespace StardewValley.Tools
     {
       string seedType = this.seedType;
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(seedType))
+      switch (PrivateImplementationDetails.ComputeStringHash(seedType))
       {
         case 100164663:
           if (!(seedType == "Rhubarb"))

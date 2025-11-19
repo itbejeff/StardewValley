@@ -429,7 +429,7 @@ namespace StardewValley
       this.interiorDoors.MakeMapModifications();
       string name = (string) (NetFieldBase<string, NetString>) this.name;
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(name))
+      switch (PrivateImplementationDetails.ComputeStringHash(name))
       {
         case 636013712:
           if (!(name == "HaleyHouse") || !Game1.player.eventsSeen.Contains(463391) || Game1.player.spouse != null && Game1.player.spouse.Equals("Emily"))
@@ -1778,7 +1778,7 @@ namespace StardewValley
       {
         string s = fullActionString.Split(' ')[0];
         // ISSUE: reference to a compiler-generated method
-        switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(s))
+        switch (PrivateImplementationDetails.ComputeStringHash(s))
         {
           case 295776207:
             if (!(s == "Warp"))
@@ -3491,7 +3491,7 @@ label_16:
       }
       string name = (string) (NetFieldBase<string, NetString>) this.name;
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(name))
+      switch (PrivateImplementationDetails.ComputeStringHash(name))
       {
         case 10819997:
           if (!(name == "LeoTreeHouse"))
@@ -5253,7 +5253,7 @@ label_16:
         string[] strArray = action.Split(' ');
         string s = strArray[0];
         // ISSUE: reference to a compiler-generated method
-        switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(s))
+        switch (PrivateImplementationDetails.ComputeStringHash(s))
         {
           case 4774130:
             if (s == "EvilShrineRight")

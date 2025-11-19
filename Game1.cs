@@ -2571,8 +2571,8 @@ namespace StardewValley
     public static void setRichPresence(string friendlyName, object argument = null)
     {
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(friendlyName))
-      {
+      switch (PrivateImplementationDetails.ComputeStringHash(friendlyName))
+      { 
         case 200649126:
           if (!(friendlyName == "location"))
             break;

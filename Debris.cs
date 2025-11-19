@@ -160,7 +160,7 @@ namespace StardewValley
       double y = (double) boundingBox.Center.Y;
       Vector2 playerPosition = new Vector2((float) x, (float) y);
       // ISSUE: explicit constructor call
-      this.\u002Ector(-2, 1, debrisOrigin1, playerPosition);
+      this.vctor(-2, 1, debrisOrigin1, playerPosition);
       this.item = item;
       item.resetState();
     }

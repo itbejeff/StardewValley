@@ -4666,7 +4666,7 @@ label_51:
       }
       string name = (string) (NetFieldBase<string, NetString>) this.name;
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(name))
+      switch (PrivateImplementationDetails.ComputeStringHash(name))
       {
         case 161540545:
           if (!(name == "Sebastian"))

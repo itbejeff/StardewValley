@@ -353,7 +353,7 @@ namespace StardewValley
     public static void getDefaultWarpLocation(string location_name, ref int x, ref int y)
     {
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(location_name))
+      switch (PrivateImplementationDetails.ComputeStringHash(location_name))
       {
         case 10819997:
           if (!(location_name == "LeoTreeHouse"))

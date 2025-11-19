@@ -1566,7 +1566,7 @@ namespace StardewValley.Menus
     private void selectionClick(string name, int change)
     {
       // ISSUE: reference to a compiler-generated method
-      switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(name))
+      switch (PrivateImplementationDetails.ComputeStringHash(name))
       {
         case 482321747:
           if (!(name == "Cabins"))
@@ -2559,6 +2559,7 @@ namespace StardewValley.Menus
     }
 
     protected override bool _ShouldAutoSnapPrioritizeAlignedElements() => true;
+    
 
     public enum Source
     {

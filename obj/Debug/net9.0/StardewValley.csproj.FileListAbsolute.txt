@@ -1,0 +1,5 @@
+/workspaces/StardewValley/obj/Debug/net9.0/StardewValley.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/StardewValley/obj/Debug/net9.0/StardewValley.AssemblyInfoInputs.cache
+/workspaces/StardewValley/obj/Debug/net9.0/StardewValley.AssemblyInfo.cs
+/workspaces/StardewValley/obj/Debug/net9.0/StardewValley.csproj.CoreCompileInputs.cache
+/workspaces/StardewValley/obj/Debug/net9.0/StardewValley.sourcelink.json
